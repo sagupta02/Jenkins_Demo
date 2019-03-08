@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor OutputJSFiles/conf.js"
+  },
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "jasminewd2": "^2.2.0",
+    "moment": "^2.24.0",
+    "protractor": "latest",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.4.1",
+    "@types/jasmine": "^2.8.8",
+    "@types/jasminewd2": "^2.0.6",
+    "@types/node": "^11.9.5",
+    "@types/selenium-webdriver": "^2.53.43",
+    "jasmine-core": "^3.3.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^3.3.3"
+  }
+}
